@@ -24,3 +24,9 @@ markdown file.
 The time complexity of the non tail recursive Fibonacci would be $\Theta(2^n)$, two calls are made per step.
 
 The tail recursive implementation simply has a worst case time complexity of $\Theta(n)$. This is because there are $n$ recursive calls at each step when our fib() function is called.
+
+In conclusion the tail recursive implementation grows slower asymptotically than the non tail recursive version.
+
+## Sources
+
+COSC 3015 lectures
